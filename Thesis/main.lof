@@ -1,0 +1,21 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 3D CNN architecture. This architecture consists of one hardwired layer, three convolutional layers, two subsampling layers, and a fully connected layer~\cite {3D-CNN:2013}.\relax }}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fusing information over temporal dimensions. Red, green, and blue boxes indicate the convolutional, normalization, and pooling layers, respectively~\cite {LargeScaleFusionCNN:2014}.\relax }}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Multi-resolution CNN architecture. Both streams consist of convolution (red), normalization (green), and pooling (blue) layers. The streams converge via two fully-connected layers (yellow)~\cite {LargeScaleFusionCNN:2014}.\relax }}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Two-stream architecture for video classification~\cite {TwoStream:2014}.\relax }}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Optical Flow. (a)(b): a pair of consecutive frames with the area above the moving hand outlined. (c): a close-up of the dense optical flow in the outlined area. (d)(e): horizontal and vertical component of the displacement field, respectively. Higher intensity corresponds to positive values, while lower intensity to negative values~\cite {TwoStream:2014}.\relax }}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Proposed LRCN architecture. The LRCN processes the variable-length visual inputs (left) with a CNN (middle-left), whose outputs are fed into a stack of recurrent sequence models (LSTMs, middle-right), which finally produce a variable-length prediction (right)~\cite {LRCN:2015}.\relax }}{24}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

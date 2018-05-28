@@ -1,0 +1,349 @@
+%% ABSTRACT CITATIONS %%
+@INPROCEEDINGS{Chan2017,
+author="Chan, Fu-Hsiang
+and Chen, Yu-Ting
+and Xiang, Yu
+and Sun, Min",
+editor="Lai, Shang-Hong
+and Lepetit, Vincent
+and Nishino, Ko
+and Sato, Yoichi",
+title="Anticipating Accidents in Dashcam Videos",
+booktitle="Computer Vision --  ACCV 2016",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="136--153",
+abstract="We propose a Dynamic-Spatial-Attention (DSA) Recurrent Neural Network (RNN) for anticipating accidents in dashcam videos (Fig. 1). Our DSA-RNN learns to (1) distribute soft-attention to candidate objects dynamically to gather subtle cues and (2) model the temporal dependencies of all cues to robustly anticipate an accident. Anticipating accidents is much less addressed than anticipating events such as changing a lane, making a turn, etc., since accidents are rare to be observed and can happen in many different ways mostly in a sudden. To overcome these challenges, we (1) utilize state-of-the-art object detector [3] to detect candidate objects, and (2) incorporate full-frame and object-based appearance and motion features in our model. We also harvest a diverse dataset of 678 dashcam accident videos on the web (Fig. 3). The dataset is unique, since various accidents (e.g., a motorbike hits a car, a car hits another car, etc.) occur in all videos. We manually mark the time-location of accidents and use them as supervision to train and evaluate our method. We show that our method anticipates accidents about 2 s before they occur with 80{\%} recall and 56.14{\%} precision. Most importantly, it achieves the highest mean average precision (74.35{\%}) outperforming other baselines without attention or RNN.",
+isbn="978-3-319-54190-7"
+}
+
+%% INTRODUCTION CITATIONS %%
+@MISC{TrafficReport,
+  title = {Canadian Motor Vehicle Traffic Collision Statistics: 2015},
+  howpublished = {\url{https://www.tc.gc.ca/eng/motorvehiclesafety/tp-tp3322-2015-1487.html}},
+  year = 2017,
+  note = {Accessed: 2018-02-08}
+}
+
+@INPROCEEDINGS{CognitiveModel,
+  author = {Haring, Kerstin and Ragni, Marco and Konieczny, Lars},
+  year = {2012},
+  month = {01},
+  pages = {},
+  title = {A Cognitive Model of Drivers Attention},
+  booktitle = {Proceedings of the 11th International Conference on Cognitive Modeling, ICCM 2012}
+}
+
+@ARTICLE{InferringDriverIntent:2004,
+  author = {Dario D. Salvucci},
+  title = {Inferring Driver Intent: A Case Study in Lane-Change Detection},
+  journal = {Proceedings of the Human Factors and Ergonomics Society Annual Meeting},
+  volume = {48},
+  number = {19},
+  pages = {2228-2231},
+  year = {2004},
+  doi = {10.1177/154193120404801905},
+  URL = {https://doi.org/10.1177/154193120404801905},
+  eprint = {https://doi.org/10.1177/154193120404801905}
+}
+
+@ARTICLE{LaneDeparture:2002,
+  author = {Kwon, Woong and Lee, Sukhan},
+  title = {Performance evaluation of decision making strategies for an embedded lane departure warning system},
+  journal = {Journal of Robotic Systems},
+  volume = {19},
+  number = {10},
+  publisher = {Wiley Subscription Services, Inc., A Wiley Company},
+  issn = {1097-4563},
+  url = {http://dx.doi.org/10.1002/rob.10056},
+  doi = {10.1002/rob.10056},
+  pages = {499--509},
+  year = {2002},
+}
+
+@INPROCEEDINGS{VisualCuesDriverVigilance:2001,
+  author="Ji, Qiang and Yang, Xiaojie",
+  editor="Schiele, Bernt and Sagerer, Gerhard",
+  title="Real Time Visual Cues Extraction for Monitoring Driver Vigilance",
+  booktitle="Computer Vision Systems",
+  year="2001",
+  publisher="Springer Berlin Heidelberg",
+  address="Berlin, Heidelberg",
+  pages="107--124",
+  isbn="978-3-540-48222-2"
+}
+
+@ARTICLE{DrowsinessWarning:2008,
+  title = "Development of a drowsiness warning system based on the fuzzy logic images analysis",
+  journal = "Expert Systems with Applications",
+  volume = "34",
+  number = "2",
+  pages = "1556 - 1561",
+  year = "2008",
+  issn = "0957-4174",
+  doi = "https://doi.org/10.1016/j.eswa.2007.01.019",
+  url = "http://www.sciencedirect.com/science/article/pii/S0957417407000401",
+  author = "Jian-Da Wu and Tuo-Rung Chen",
+  keywords = "Drowsiness warning system, Vehicle safety, Image processing, Fuzzy logic inference"
+}
+
+@INPROCEEDINGS{DAISY:1994,
+  author = {R. Onken},
+  booktitle = {Intelligent Vehicles '94 Symposium, Proceedings of the},
+  title = {DAISY, an adaptive, knowledge-based driver monitoring and warning system},
+  year = {1994},
+  volume = {},
+  number = {},
+  pages = {544-549},
+  keywords = {adaptive systems;knowledge based systems;monitoring;road traffic;traffic control;DAISY;German motorways;PROMETHEUS project;adaptive system;driver behavioural state;intelligent driver monitoring/warning system;knowledge-based system;road traffic;warning messages;Alarm systems;Haptic interfaces;Monitoring;Road accidents;Road safety;System testing;Traffic control;Turning;Vehicle driving;Vehicles},
+  doi = {10.1109/IVS.1994.639576},
+  ISSN = {},
+  month = oct
+}
+
+@ARTICLE{Drowsiness:2012,
+  author = {Sahayadhas, Arun and Sundaraj, Kenneth},
+  title = {Detecting Driver Drowsiness Based on Sensors: A Review},
+  journal = {Sensors},
+  volume = {12},
+  year = {2012},
+  number = {12},
+  pages = {16937--16953},
+  url = {http://www.mdpi.com/1424-8220/12/12/16937},
+  PubMedID = {23223151},
+  issn = {1424-8220},
+  doi = {10.3390/s121216937}
+}
+
+@MISC{Toyota:2015,
+  title = {Toyota Enhances Pre-crash Safety System With Driver-monitoring Function},
+  howpublished = {\url{https://newsroom.toyota.co.jp/en/detail/248128}},
+  year = 2015,
+  note = {Accessed: 2018-02-08}
+}
+
+@MISC{bmw,
+  title = {BMW Model Upgrade Measures Taking Effect from the Summer of 2013},
+  howpublished = {\url{https://www.press.bmwgroup.com/global/article/detail/T0141144EN/bmw-model-upgrade-measures-taking-effect-from-the/summer-of-2013}},
+  year = 2013,
+  note = {Accessed: 2018-02-08}
+}
+
+@MISC{bosch,
+  title = {Driver Drowsiness},
+  howpublished = {\url{http://www.bosch-mobility-solutions.com/en/}},
+  year = 2013,
+  note = {Accessed: 2018-02-08},
+  author = {Robert Bosch GmbH}
+}
+
+@MISC{ford,
+  title = {Driver Drowsiness},
+  howpublished = {\url{https://web.archive.org/web/20110513232258}},
+  year = 2011,
+  note = {Accessed: 2018-02-08}
+}
+
+@ARTICLE{VGGNet:2015,
+  author = {Karen Simonyan and Andrew Zisserman},
+  title = {Very Deep Convolutional Networks for Large-Scale Image Recognition},
+  journal = {CoRR},
+  volume = {abs/1409.1556},
+  year = {2014},
+  url = {http://arxiv.org/abs/1409.1556},
+  archivePrefix = {arXiv},
+  eprint = {1409.1556},
+  timestamp = {Wed, 07 Jun 2017 14:41:51 +0200},
+  biburl = {https://dblp.org/rec/bib/journals/corr/SimonyanZ14a},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@ARTICLE{LSTM:1997,
+ author = {Hochreiter, Sepp and Schmidhuber, J\"{u}rgen},
+ title = {Long Short-Term Memory},
+ journal = {Neural Comput.},
+ issue_date = {November 15, 1997},
+ volume = {9},
+ number = {8},
+ month = nov,
+ year = {1997},
+ issn = {0899-7667},
+ pages = {1735--1780},
+ numpages = {46},
+ url = {http://dx.doi.org/10.1162/neco.1997.9.8.1735},
+ doi = {10.1162/neco.1997.9.8.1735},
+ acmid = {1246450},
+ publisher = {MIT Press},
+ address = {Cambridge, MA, USA},
+}
+
+%% LITERATURE REVIEW CITATIONS %%
+@ARTICLE{3D-CNN:2013, 
+  author = {S. Ji and W. Xu and M. Yang and K. Yu}, 
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title = {3D Convolutional Neural Networks for Human Action Recognition}, 
+  year = {2013}, 
+  volume = {35}, 
+  number = {1}, 
+  pages = {221-231}, 
+  keywords = {feature extraction;gesture recognition;image classification;image motion analysis;image representation;neural nets;spatiotemporal phenomena;video surveillance;3D CNN model;3D convolutional neural networks;airport surveillance videos;automated human action recognition;baseline methods;complex handcrafted features;deep model;feature representation;high-level features;motion information encoding;spatial dimensions;temporal dimensions;Computational modeling;Computer architecture;Feature extraction;Kernel;Solid modeling;Three dimensional displays;Videos;3D convolution;Deep learning;action recognition;convolutional neural networks;model combination;Algorithms;Decision Support Techniques;Image Interpretation, Computer-Assisted;Imaging, Three-Dimensional;Movement;Neural Networks (Computer);Pattern Recognition, Automated;Subtraction Technique}, 
+  doi = {10.1109/TPAMI.2012.59}, 
+  ISSN = {0162-8828}, 
+  month = {01}
+}
+
+@ARTICLE{Niebles:2008,
+  author = "Niebles, Juan Carlos
+and Wang, Hongcheng
+and Fei-Fei, Li",
+  title = "Unsupervised Learning of Human Action Categories Using Spatial-Temporal Words",
+  journal = "International Journal of Computer Vision",
+  year = "2008",
+  month = {09},
+  day = "01",
+  volume = "79",
+  number = "3",
+  pages = "299--318",
+  abstract = "We present a novel unsupervised learning method for human action categories. A video sequence is represented as a collection of spatial-temporal words by extracting space-time interest points. The algorithm automatically learns the probability distributions of the spatial-temporal words and the intermediate topics corresponding to human action categories. This is achieved by using latent topic models such as the probabilistic Latent Semantic Analysis (pLSA) model and Latent Dirichlet Allocation (LDA). Our approach can handle noisy feature points arisen from dynamic background and moving cameras due to the application of the probabilistic models. Given a novel video sequence, the algorithm can categorize and localize the human action(s) contained in the video. We test our algorithm on three challenging datasets: the KTH human motion dataset, the Weizmann human action dataset, and a recent dataset of figure skating actions. Our results reflect the promise of such a simple approach. In addition, our algorithm can recognize and localize multiple actions in long and complex video sequences containing multiple motions.",
+  issn = "1573-1405",
+  doi = "10.1007/s11263-007-0122-4",
+  url = "https://doi.org/10.1007/s11263-007-0122-4"
+}
+
+@INPROCEEDINGS{Schuldt:2004,
+  author = {C. Schuldt and I. Laptev and B. Caputo}, 
+  booktitle = {Proceedings of the 17th International Conference on Pattern Recognition, 2004. ICPR 2004.}, 
+  title = {Recognizing human actions: a local SVM approach}, 
+  year = {2004}, 
+  volume = {3}, 
+  number = {}, 
+  pages = {32-36 Vol.3}, 
+  keywords = {feature extraction;pattern classification;support vector machines;video databases;video signal processing;SVM classification;human action recognition;local space time features;motion pattern recognition;video database;video representations;Cameras;Computer vision;Frequency;Humans;Image recognition;Pattern recognition;Performance evaluation;Spatial databases;Support vector machine classification;Support vector machines}, 
+  doi = {10.1109/ICPR.2004.1334462}, 
+  ISSN = {1051-4651}, 
+  month = {08}
+}
+
+@INPROCEEDINGS{Jhuang:2007,
+  author = {H. Jhuang and T. Serre and L. Wolf and T. Poggio}, 
+  booktitle = {2007 IEEE 11th International Conference on Computer Vision}, 
+  title = {A Biologically Inspired System for Action Recognition}, 
+  year = {2007}, 
+  volume = {}, 
+  number = {}, 
+  pages = {1-8}, 
+  keywords = {image motion analysis;image sequences;object recognition;video signal processing;action recognition;biologically inspired system;hierarchical feedforward architectures;motion processing;motion-direction sensitive units;neurobiological model;object recognition;position-invariant spatio-temporal feature detectors;video sequences;Biological system modeling;Brain modeling;Computer vision;Motion analysis;Motion detection;Object recognition;Position sensitive particle detectors;Sensor arrays;Testing;Video sequences}, 
+  doi = {10.1109/ICCV.2007.4408988}, 
+  ISSN = {1550-5499}, 
+  month = {09}
+}
+
+@INPROCEEDINGS{Schindler:2008, 
+  author = {K. Schindler and L. van Gool}, 
+  booktitle = {2008 IEEE Conference on Computer Vision and Pattern Recognition}, 
+  title = {Action snippets: How many frames does human action recognition require?}, 
+  year = {2008}, 
+  volume = {}, 
+  number = {}, 
+  pages = {1-8}, 
+  keywords = {image classification;image motion analysis;image recognition;image sequences;video signal processing;action recognition;action snippets;human action recognition;human vision;video clips;visual recognition;Feature extraction;Humans;Image motion analysis;Layout;Legged locomotion;Shape;Surveillance;Video sequences;Visual databases;Voting}, 
+  doi = {10.1109/CVPR.2008.4587730}, 
+  ISSN = {1063-6919}, 
+  month = {06}
+}
+
+@INPROCEEDINGS{LargeScaleFusionCNN:2014,
+  author = {Karpathy, Andrej and Toderici, George and Shetty, Sanketh and Leung, Thomas and Sukthankar, Rahul and Fei-Fei, Li},
+  title = {Large-Scale Video Classification with Convolutional Neural Networks},
+  booktitle = {Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition},
+  series = {CVPR '14},
+  year = {2014},
+  isbn = {978-1-4799-5118-5},
+  pages = {1725--1732},
+  numpages = {8},
+  url = {http://dx.doi.org/10.1109/CVPR.2014.223},
+  doi = {10.1109/CVPR.2014.223},
+  acmid = {2680211},
+  publisher = {IEEE Computer Society},
+  address = {Washington, DC, USA},
+  keywords = {convolutional, neural, network, video, classification, action, recognition, large-scale, dataset, sports},
+} 
+
+@INPROCEEDINGS{Krizhevsky:2012,
+  author = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E.},
+  title = {ImageNet Classification with Deep Convolutional Neural Networks},
+  booktitle = {Proceedings of the 25th International Conference on Neural Information Processing Systems - Volume 1},
+  series = {NIPS'12},
+  year = {2012},
+  location = {Lake Tahoe, Nevada},
+  pages = {1097--1105},
+  numpages = {9},
+  url = {http://dl.acm.org/citation.cfm?id=2999134.2999257},
+  acmid = {2999257},
+  publisher = {Curran Associates Inc.},
+  address = {USA},
+} 
+
+@ARTICLE{UCF-101,
+  title = {UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild},
+  author = {Khurram Soomro and Amir Roshan Zamir and Mubarak Shah},
+  journal = {CoRR},
+  year = {2012},
+  volume = {abs/1212.0402}
+}
+
+@ARTICLE{TwoStream:2014,
+  author = {Karen Simonyan and Andrew Zisserman},
+  title = {Two-Stream Convolutional Networks for Action Recognition in Videos},
+  journal = {CoRR},
+  volume = {abs/1406.2199},
+  year = {2014},
+  url = {http://arxiv.org/abs/1406.2199},
+  archivePrefix = {arXiv},
+  eprint = {1406.2199},
+  timestamp = {Wed, 07 Jun 2017 14:40:20 +0200},
+  biburl = {https://dblp.org/rec/bib/journals/corr/SimonyanZ14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@ARTICLE{SeparateVisPaths:1992,
+  author = {Goodale, Melvyn and Milner, A.David},
+  year = {1992},
+  month = {02},
+  pages = {20-5},
+  title = {Separate Visual Pathways for Perception and Action},
+  volume = {15},
+  booktitle = {Trends in neurosciences}
+}
+
+@ARTICLE{LinearSVM:2002,
+  author = {Crammer, Koby and Singer, Yoram},
+  title = {On the Algorithmic Implementation of Multiclass Kernel-based Vector Machines},
+  journal = {J. Mach. Learn. Res.},
+  issue_date = {3/1/2002},
+  volume = {2},
+  month = mar,
+  year = {2002},
+  issn = {1532-4435},
+  pages ={ 265--292},
+  numpages = {28},
+  url = {http://dl.acm.org/citation.cfm?id=944790.944813},
+  acmid = {944813},
+  publisher = {JMLR.org},
+}
+
+@ARTICLE{LRCN:2015,
+  author = {J. Donahue and L. A. Hendricks and M. Rohrbach and S. Venugopalan and S. Guadarrama and K. Saenko and T. Darrell}, 
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title = {Long-Term Recurrent Convolutional Networks for Visual Recognition and Description}, 
+  year = {2017}, 
+  volume = {39}, 
+  number = {4}, 
+  pages = {677-691}, 
+  keywords = {backpropagation;computer vision;image sequences;neural net architecture;object recognition;recurrent neural nets;activity recognition;backpropagation;complex temporal dynamics;compositional representation learning;convolutional perceptual representations;differentiable recurrent models;image captioning;large-scale visual understanding tasks;long-term dependency Learning;long-term recurrent convolutional networks;network state updates;recurrent convolutional architectures;recurrent sequence models;temporal dynamic learning;variable-length input mapping;variable-length output mapping;video description;visual convolutional network models;visual description;visual recognition;Computational modeling;Computer architecture;Data models;Logic gates;Predictive models;Recurrent neural networks;Visualization;Computer vision;convolutional nets;deep learning;transfer learning}, 
+  doi = {10.1109/TPAMI.2016.2599174}, 
+  ISSN = {0162-8828}, 
+  month = {04}
+}
+

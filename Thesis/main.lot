@@ -1,0 +1,13 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Accuracies for the correct prediction in the top $k$ predictions on the Sports-1M dataset via fusion-based CNN architectures~\cite {LargeScaleFusionCNN:2014}.\relax }}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces Comparing single-frame models to LRCN networks for activity recognition on the UCF-101 dataset~\cite {UCF-101}, with both RGB and flow inputs~\cite {LRCN:2015}.\relax }}{25}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

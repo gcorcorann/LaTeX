@@ -1,0 +1,976 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{bmw}{misc}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{5f6fa000f686ee5b41be67ba6ff7962d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.press.bmwgroup.com/global/article/detail/T0141144EN/bmw-model-upgrade-measures-taking-effect-from-the/summer-of-2013}}
+      \field{note}{Accessed: 2018-02-08}
+      \field{title}{BMW Model Upgrade Measures Taking Effect from the Summer of 2013}
+      \field{year}{2013}
+    \endentry
+    \entry{TrafficReport}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.tc.gc.ca/eng/motorvehiclesafety/tp-tp3322-2015-1487.html}}
+      \field{note}{Accessed: 2018-02-08}
+      \field{title}{Canadian Motor Vehicle Traffic Collision Statistics: 2015}
+      \field{year}{2017}
+    \endentry
+    \entry{Chan2017}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=f9e42714cce9794b3fd9aaadafd8db44}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Fu-Hsiang},
+           giveni={F\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=7d7d7c7fedb6df73e7e1c24cf8e3e720}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu-Ting},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=b6d88cfa6a67661781a7484464da5934}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7e4290bad319dc9b96a098c8eee04fc8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=3414406f65cb8202a6f18aa74c714661}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Shang-Hong},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=7187819964d2d08695068a3f668e2ed1}{%
+           family={Lepetit},
+           familyi={L\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d58a96d8e7f4077a6a147b6b5d37a5b4}{%
+           family={Nishino},
+           familyi={N\bibinitperiod},
+           given={Ko},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e292ab2afea048f7ad6399d6b3301f67}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Yoichi},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{04ab05d2c6a89ce829cdec370581cea0}
+      \strng{fullhash}{a7815fa10da98fbaa9122eb0b5b1554c}
+      \strng{authornamehash}{04ab05d2c6a89ce829cdec370581cea0}
+      \strng{authorfullhash}{a7815fa10da98fbaa9122eb0b5b1554c}
+      \strng{editornamehash}{073294b0c2ab998d3eaf573cbf93c7bf}
+      \strng{editorfullhash}{10b0ae51412b5f5e5d6ed39baec5a11a}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a Dynamic-Spatial-Attention (DSA) Recurrent Neural Network (RNN) for anticipating accidents in dashcam videos (Fig. 1). Our DSA-RNN learns to (1) distribute soft-attention to candidate objects dynamically to gather subtle cues and (2) model the temporal dependencies of all cues to robustly anticipate an accident. Anticipating accidents is much less addressed than anticipating events such as changing a lane, making a turn, etc., since accidents are rare to be observed and can happen in many different ways mostly in a sudden. To overcome these challenges, we (1) utilize state-of-the-art object detector [3] to detect candidate objects, and (2) incorporate full-frame and object-based appearance and motion features in our model. We also harvest a diverse dataset of 678 dashcam accident videos on the web (Fig. 3). The dataset is unique, since various accidents (e.g., a motorbike hits a car, a car hits another car, etc.) occur in all videos. We manually mark the time-location of accidents and use them as supervision to train and evaluate our method. We show that our method anticipates accidents about 2 s before they occur with 80{\%} recall and 56.14{\%} precision. Most importantly, it achieves the highest mean average precision (74.35{\%}) outperforming other baselines without attention or RNN.}
+      \field{booktitle}{Computer Vision -- ACCV 2016}
+      \field{isbn}{978-3-319-54190-7}
+      \field{title}{Anticipating Accidents in Dashcam Videos}
+      \field{year}{2017}
+      \field{pages}{136\bibrangedash 153}
+      \range{pages}{18}
+    \endentry
+    \entry{LinearSVM:2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=16e0c91cca40e2931e13a4c18e98530b}{%
+           family={Crammer},
+           familyi={C\bibinitperiod},
+           given={Koby},
+           giveni={K\bibinitperiod}}}%
+        {{hash=300d4990e626d975e0c28630444f63c3}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={Yoram},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JMLR.org}%
+      }
+      \strng{namehash}{145ef4a4a8eb19e849d62f98e6719c1b}
+      \strng{fullhash}{145ef4a4a8eb19e849d62f98e6719c1b}
+      \strng{authornamehash}{145ef4a4a8eb19e849d62f98e6719c1b}
+      \strng{authorfullhash}{145ef4a4a8eb19e849d62f98e6719c1b}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1532-4435}
+      \field{journaltitle}{J. Mach. Learn. Res.}
+      \field{month}{3}
+      \field{title}{On the Algorithmic Implementation of Multiclass Kernel-based Vector Machines}
+      \field{volume}{2}
+      \field{year}{2002}
+      \field{pages}{265\bibrangedash 292}
+      \range{pages}{28}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=944790.944813
+      \endverb
+    \endentry
+    \entry{LRCN:2015}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9ce86f65671699c739c901508fd6504a}{%
+           family={Donahue},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=954cac96decb0348332ec9f29e67713f}{%
+           family={Hendricks},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b96c9aa7e091784d762811ab07a0bf57}{%
+           family={Rohrbach},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9a7cb35f4055969cfb4c421cbc743d40}{%
+           family={Venugopalan},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=53221bef21ee04374d4c6732d7ac5cab}{%
+           family={Guadarrama},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1e691db94c51f26199f884e13f77336d}{%
+           family={Saenko},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=579ddfcd2daabfeb13ef4a7f1d862844}{%
+           family={Darrell},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{804039014511051f8f2c7dc56c2e539e}
+      \strng{fullhash}{80f9bc839b59b6758a0165200a630f82}
+      \strng{authornamehash}{804039014511051f8f2c7dc56c2e539e}
+      \strng{authorfullhash}{80f9bc839b59b6758a0165200a630f82}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0162-8828}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{month}{04}
+      \field{number}{4}
+      \field{title}{Long-Term Recurrent Convolutional Networks for Visual Recognition and Description}
+      \field{volume}{39}
+      \field{year}{2017}
+      \field{pages}{677\bibrangedash 691}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2016.2599174
+      \endverb
+      \keyw{backpropagation;computer vision;image sequences;neural net architecture;object recognition;recurrent neural nets;activity recognition;backpropagation;complex temporal dynamics;compositional representation learning;convolutional perceptual representations;differentiable recurrent models;image captioning;large-scale visual understanding tasks;long-term dependency Learning;long-term recurrent convolutional networks;network state updates;recurrent convolutional architectures;recurrent sequence models;temporal dynamic learning;variable-length input mapping;variable-length output mapping;video description;visual convolutional network models;visual description;visual recognition;Computational modeling;Computer architecture;Data models;Logic gates;Predictive models;Recurrent neural networks;Visualization;Computer vision;convolutional nets;deep learning;transfer learning}
+    \endentry
+    \entry{ford}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://web.archive.org/web/20110513232258}}
+      \field{note}{Accessed: 2018-02-08}
+      \field{title}{Driver Drowsiness}
+      \field{year}{2011}
+    \endentry
+    \entry{bosch}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2db3255070014f07cd58a70cea5679fa}{%
+           family={GmbH},
+           familyi={G\bibinitperiod},
+           given={Robert\bibnamedelima Bosch},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2db3255070014f07cd58a70cea5679fa}
+      \strng{fullhash}{2db3255070014f07cd58a70cea5679fa}
+      \strng{authornamehash}{2db3255070014f07cd58a70cea5679fa}
+      \strng{authorfullhash}{2db3255070014f07cd58a70cea5679fa}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://www.bosch-mobility-solutions.com/en/}}
+      \field{note}{Accessed: 2018-02-08}
+      \field{title}{Driver Drowsiness}
+      \field{year}{2013}
+    \endentry
+    \entry{SeparateVisPaths:1992}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9f32b3f16d7f8dd811d6a08d6086538b}{%
+           family={Goodale},
+           familyi={G\bibinitperiod},
+           given={Melvyn},
+           giveni={M\bibinitperiod}}}%
+        {{hash=48dce4fc8e9935ef91b614a9d216bf44}{%
+           family={Milner},
+           familyi={M\bibinitperiod},
+           given={A.David},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f98cf1544eb5a88e2d11edb9c142c24}
+      \strng{fullhash}{1f98cf1544eb5a88e2d11edb9c142c24}
+      \strng{authornamehash}{1f98cf1544eb5a88e2d11edb9c142c24}
+      \strng{authorfullhash}{1f98cf1544eb5a88e2d11edb9c142c24}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Trends in neurosciences}
+      \field{month}{02}
+      \field{title}{Separate Visual Pathways for Perception and Action}
+      \field{volume}{15}
+      \field{year}{1992}
+      \field{pages}{20\bibrangedash 5}
+      \range{pages}{6}
+    \endentry
+    \entry{CognitiveModel}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=81c3125f9bf0117ee73ab5b4bf78ce5e}{%
+           family={Haring},
+           familyi={H\bibinitperiod},
+           given={Kerstin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c6b613707b4f082d596821d60dfe544b}{%
+           family={Ragni},
+           familyi={R\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a86ba4a65dafa97814fe2b546d3ff65e}{%
+           family={Konieczny},
+           familyi={K\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{73e103f73b7329af9ba0486ddc43e553}
+      \strng{fullhash}{73e103f73b7329af9ba0486ddc43e553}
+      \strng{authornamehash}{73e103f73b7329af9ba0486ddc43e553}
+      \strng{authorfullhash}{73e103f73b7329af9ba0486ddc43e553}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 11th International Conference on Cognitive Modeling, ICCM 2012}
+      \field{month}{01}
+      \field{title}{A Cognitive Model of Drivers Attention}
+      \field{year}{2012}
+    \endentry
+    \entry{LSTM:1997}{article}{}
+      \name{author}{2}{}{%
+        {{hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={Sepp},
+           giveni={S\bibinitperiod}}}%
+        {{hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{fullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0899-7667}
+      \field{journaltitle}{Neural Comput.}
+      \field{month}{11}
+      \field{number}{8}
+      \field{title}{Long Short-Term Memory}
+      \field{volume}{9}
+      \field{year}{1997}
+      \field{pages}{1735\bibrangedash 1780}
+      \range{pages}{46}
+      \verb{doi}
+      \verb 10.1162/neco.1997.9.8.1735
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1162/neco.1997.9.8.1735
+      \endverb
+    \endentry
+    \entry{Jhuang:2007}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c9b4f404726c8442d9efa1489ec06134}{%
+           family={Jhuang},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=86c015b12ff5961e4287185a068cbced}{%
+           family={Serre},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d87b4c39d69f1056666a9a400a36f998}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bea5c9ececba5900cf994189dba0829c}{%
+           family={Poggio},
+           familyi={P\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6af21abe4424ec7ba68eddda7665b73}
+      \strng{fullhash}{465a04845457b393fa6756fc82d8662b}
+      \strng{authornamehash}{e6af21abe4424ec7ba68eddda7665b73}
+      \strng{authorfullhash}{465a04845457b393fa6756fc82d8662b}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2007 IEEE 11th International Conference on Computer Vision}
+      \field{issn}{1550-5499}
+      \field{month}{09}
+      \field{title}{A Biologically Inspired System for Action Recognition}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICCV.2007.4408988
+      \endverb
+      \keyw{image motion analysis;image sequences;object recognition;video signal processing;action recognition;biologically inspired system;hierarchical feedforward architectures;motion processing;motion-direction sensitive units;neurobiological model;object recognition;position-invariant spatio-temporal feature detectors;video sequences;Biological system modeling;Brain modeling;Computer vision;Motion analysis;Motion detection;Object recognition;Position sensitive particle detectors;Sensor arrays;Testing;Video sequences}
+    \endentry
+    \entry{VisualCuesDriverVigilance:2001}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f2825e3c1e08515c8a535d9517c5879f}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=38495c6de36751c29183df2ff111e574}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Xiaojie},
+           giveni={X\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=457dd3049a60059cf69e775a47f0c154}{%
+           family={Schiele},
+           familyi={S\bibinitperiod},
+           given={Bernt},
+           giveni={B\bibinitperiod}}}%
+        {{hash=89f6909b98bcc2da9441145141d703de}{%
+           family={Sagerer},
+           familyi={S\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{de08f42dd73e34df202645489012c457}
+      \strng{fullhash}{de08f42dd73e34df202645489012c457}
+      \strng{authornamehash}{de08f42dd73e34df202645489012c457}
+      \strng{authorfullhash}{de08f42dd73e34df202645489012c457}
+      \strng{editornamehash}{b8fef8fa196a855cc4964f69c551cd87}
+      \strng{editorfullhash}{b8fef8fa196a855cc4964f69c551cd87}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer Vision Systems}
+      \field{isbn}{978-3-540-48222-2}
+      \field{title}{Real Time Visual Cues Extraction for Monitoring Driver Vigilance}
+      \field{year}{2001}
+      \field{pages}{107\bibrangedash 124}
+      \range{pages}{18}
+    \endentry
+    \entry{3D-CNN:2013}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2d41823df6160614a90863714467e0ab}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba77f48973a656795eeba7787647bdd9}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=93ef14cd2681e05473f6f03a73ce9bab}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cde667d169dfe28fa4feb92066902332}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{42b4048d075d8f1ebe346b1ece825a6f}
+      \strng{fullhash}{151300e82f0eb92e156f38bc85ea176a}
+      \strng{authornamehash}{42b4048d075d8f1ebe346b1ece825a6f}
+      \strng{authorfullhash}{151300e82f0eb92e156f38bc85ea176a}
+      \field{sortinit}{J}
+      \field{sortinithash}{c86bd6cced82a15683b396c2169909ef}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0162-8828}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{3D Convolutional Neural Networks for Human Action Recognition}
+      \field{volume}{35}
+      \field{year}{2013}
+      \field{pages}{221\bibrangedash 231}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2012.59
+      \endverb
+      \keyw{feature extraction;gesture recognition;image classification;image motion analysis;image representation;neural nets;spatiotemporal phenomena;video surveillance;3D CNN model;3D convolutional neural networks;airport surveillance videos;automated human action recognition;baseline methods;complex handcrafted features;deep model;feature representation;high-level features;motion information encoding;spatial dimensions;temporal dimensions;Computational modeling;Computer architecture;Feature extraction;Kernel;Solid modeling;Three dimensional displays;Videos;3D convolution;Deep learning;action recognition;convolutional neural networks;model combination;Algorithms;Decision Support Techniques;Image Interpretation,Computer-Assisted;Imaging,Three-Dimensional;Movement;Neural Networks (Computer);Pattern Recognition,Automated;Subtraction Technique}
+    \endentry
+    \entry{LargeScaleFusionCNN:2014}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=e91a4c2044bccdbef249eabc886ff988}{%
+           family={Karpathy},
+           familyi={K\bibinitperiod},
+           given={Andrej},
+           giveni={A\bibinitperiod}}}%
+        {{hash=61782a3924be97d5dc42427bfd963c92}{%
+           family={Toderici},
+           familyi={T\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=80447d80622f52e6a11d35ede2ff3160}{%
+           family={Shetty},
+           familyi={S\bibinitperiod},
+           given={Sanketh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=909cc514625b20b174a78f5dcd8e558a}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=4df216303596d3f13ec1677ee7718dca}{%
+           family={Sukthankar},
+           familyi={S\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cd00ce5bc45f687c432e52e0fa1a7aa6}{%
+           family={Fei-Fei},
+           familyi={F\bibinithyphendelim F\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, DC, USA}%
+      }
+      \list{publisher}{1}{%
+        {IEEE Computer Society}%
+      }
+      \strng{namehash}{66b96c710eb5c440c8d6cd3c52cb0528}
+      \strng{fullhash}{9a16f277a516dbef5f366670cef2658e}
+      \strng{authornamehash}{66b96c710eb5c440c8d6cd3c52cb0528}
+      \strng{authorfullhash}{9a16f277a516dbef5f366670cef2658e}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2014 IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{isbn}{978-1-4799-5118-5}
+      \field{series}{CVPR '14}
+      \field{title}{Large-Scale Video Classification with Convolutional Neural Networks}
+      \field{year}{2014}
+      \field{pages}{1725\bibrangedash 1732}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CVPR.2014.223
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1109/CVPR.2014.223
+      \endverb
+      \keyw{convolutional,neural,network,video,classification,action,recognition,large-scale,dataset,sports}
+    \endentry
+    \entry{Krizhevsky:2012}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+        {{hash=881b7655f3886f90a9400902a521acdb}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Lake Tahoe, Nevada}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates Inc.}%
+      }
+      \strng{namehash}{a2ca3db133a11a15a681899a15f5d6aa}
+      \strng{fullhash}{a2ca3db133a11a15a681899a15f5d6aa}
+      \strng{authornamehash}{a2ca3db133a11a15a681899a15f5d6aa}
+      \strng{authorfullhash}{a2ca3db133a11a15a681899a15f5d6aa}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 25th International Conference on Neural Information Processing Systems - Volume 1}
+      \field{series}{NIPS'12}
+      \field{title}{ImageNet Classification with Deep Convolutional Neural Networks}
+      \field{year}{2012}
+      \field{pages}{1097\bibrangedash 1105}
+      \range{pages}{9}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=2999134.2999257
+      \endverb
+    \endentry
+    \entry{LaneDeparture:2002}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3964dc2d2d93f6f42d7c5396a7a87530}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Woong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f4a7044e651356d45438dc28920c977e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sukhan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Subscription Services, Inc., A Wiley Company}%
+      }
+      \strng{namehash}{cc4562aaf97773cf3560c7c8c44a63b9}
+      \strng{fullhash}{cc4562aaf97773cf3560c7c8c44a63b9}
+      \strng{authornamehash}{cc4562aaf97773cf3560c7c8c44a63b9}
+      \strng{authorfullhash}{cc4562aaf97773cf3560c7c8c44a63b9}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1097-4563}
+      \field{journaltitle}{Journal of Robotic Systems}
+      \field{number}{10}
+      \field{title}{Performance evaluation of decision making strategies for an embedded lane departure warning system}
+      \field{volume}{19}
+      \field{year}{2002}
+      \field{pages}{499\bibrangedash 509}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1002/rob.10056
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1002/rob.10056
+      \endverb
+    \endentry
+    \entry{Niebles:2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aa4caf4b000743b4712960d1344565d5}{%
+           family={Niebles},
+           familyi={N\bibinitperiod},
+           given={Juan\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0eb89b023442795120365e7642bd0fcf}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongcheng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cd00ce5bc45f687c432e52e0fa1a7aa6}{%
+           family={Fei-Fei},
+           familyi={F\bibinithyphendelim F\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cb8feb2144d0d527d0a1d9c8f6cd8fa}
+      \strng{fullhash}{3cb8feb2144d0d527d0a1d9c8f6cd8fa}
+      \strng{authornamehash}{3cb8feb2144d0d527d0a1d9c8f6cd8fa}
+      \strng{authorfullhash}{3cb8feb2144d0d527d0a1d9c8f6cd8fa}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a novel unsupervised learning method for human action categories. A video sequence is represented as a collection of spatial-temporal words by extracting space-time interest points. The algorithm automatically learns the probability distributions of the spatial-temporal words and the intermediate topics corresponding to human action categories. This is achieved by using latent topic models such as the probabilistic Latent Semantic Analysis (pLSA) model and Latent Dirichlet Allocation (LDA). Our approach can handle noisy feature points arisen from dynamic background and moving cameras due to the application of the probabilistic models. Given a novel video sequence, the algorithm can categorize and localize the human action(s) contained in the video. We test our algorithm on three challenging datasets: the KTH human motion dataset, the Weizmann human action dataset, and a recent dataset of figure skating actions. Our results reflect the promise of such a simple approach. In addition, our algorithm can recognize and localize multiple actions in long and complex video sequences containing multiple motions.}
+      \field{issn}{1573-1405}
+      \field{journaltitle}{International Journal of Computer Vision}
+      \field{month}{09}
+      \field{number}{3}
+      \field{title}{Unsupervised Learning of Human Action Categories Using Spatial-Temporal Words}
+      \field{volume}{79}
+      \field{year}{2008}
+      \field{pages}{299\bibrangedash 318}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/s11263-007-0122-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s11263-007-0122-4
+      \endverb
+    \endentry
+    \entry{DAISY:1994}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=cdaf6f8435e12eaabb6dea065fa3c895}{%
+           family={Onken},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdaf6f8435e12eaabb6dea065fa3c895}
+      \strng{fullhash}{cdaf6f8435e12eaabb6dea065fa3c895}
+      \strng{authornamehash}{cdaf6f8435e12eaabb6dea065fa3c895}
+      \strng{authorfullhash}{cdaf6f8435e12eaabb6dea065fa3c895}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intelligent Vehicles '94 Symposium, Proceedings of the}
+      \field{month}{10}
+      \field{title}{DAISY, an adaptive, knowledge-based driver monitoring and warning system}
+      \field{year}{1994}
+      \field{pages}{544\bibrangedash 549}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IVS.1994.639576
+      \endverb
+      \keyw{adaptive systems;knowledge based systems;monitoring;road traffic;traffic control;DAISY;German motorways;PROMETHEUS project;adaptive system;driver behavioural state;intelligent driver monitoring/warning system;knowledge-based system;road traffic;warning messages;Alarm systems;Haptic interfaces;Monitoring;Road accidents;Road safety;System testing;Traffic control;Turning;Vehicle driving;Vehicles}
+    \endentry
+    \entry{Drowsiness:2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8dd688ae6f754e2adde8f05aa80eb061}{%
+           family={Sahayadhas},
+           familyi={S\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9cd4a723cf71fe4980d32ea30e3b6cb5}{%
+           family={Sundaraj},
+           familyi={S\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{00838fb65dfe158bad606ae1963a29c3}
+      \strng{fullhash}{00838fb65dfe158bad606ae1963a29c3}
+      \strng{authornamehash}{00838fb65dfe158bad606ae1963a29c3}
+      \strng{authorfullhash}{00838fb65dfe158bad606ae1963a29c3}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1424-8220}
+      \field{journaltitle}{Sensors}
+      \field{number}{12}
+      \field{title}{Detecting Driver Drowsiness Based on Sensors: A Review}
+      \field{volume}{12}
+      \field{year}{2012}
+      \field{pages}{16937\bibrangedash 16953}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.3390/s121216937
+      \endverb
+      \verb{url}
+      \verb http://www.mdpi.com/1424-8220/12/12/16937
+      \endverb
+    \endentry
+    \entry{InferringDriverIntent:2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1d2ebabd7aa4122bebd94260596539e9}{%
+           family={Salvucci},
+           familyi={S\bibinitperiod},
+           given={Dario\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d2ebabd7aa4122bebd94260596539e9}
+      \strng{fullhash}{1d2ebabd7aa4122bebd94260596539e9}
+      \strng{authornamehash}{1d2ebabd7aa4122bebd94260596539e9}
+      \strng{authorfullhash}{1d2ebabd7aa4122bebd94260596539e9}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Human Factors and Ergonomics Society Annual Meeting}
+      \field{number}{19}
+      \field{title}{Inferring Driver Intent: A Case Study in Lane-Change Detection}
+      \field{volume}{48}
+      \field{year}{2004}
+      \field{pages}{2228\bibrangedash 2231}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1177/154193120404801905
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1177/154193120404801905
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/154193120404801905
+      \endverb
+    \endentry
+    \entry{Schindler:2008}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f33688021bc7f064cddea445951b458a}{%
+           family={Schindler},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=01fd5d9f59de39dd3426226b5c8626ea}{%
+           family={Gool},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{98a2069f96f46415b5479cafa38f04f5}
+      \strng{fullhash}{98a2069f96f46415b5479cafa38f04f5}
+      \strng{authornamehash}{98a2069f96f46415b5479cafa38f04f5}
+      \strng{authorfullhash}{98a2069f96f46415b5479cafa38f04f5}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{issn}{1063-6919}
+      \field{month}{06}
+      \field{title}{Action snippets: How many frames does human action recognition require?}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CVPR.2008.4587730
+      \endverb
+      \keyw{image classification;image motion analysis;image recognition;image sequences;video signal processing;action recognition;action snippets;human action recognition;human vision;video clips;visual recognition;Feature extraction;Humans;Image motion analysis;Layout;Legged locomotion;Shape;Surveillance;Video sequences;Visual databases;Voting}
+    \endentry
+    \entry{Schuldt:2004}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f9c72c5a2fb143b768a2317ff1adeb4b}{%
+           family={Schuldt},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9f034a55a6788bcee39b2bbf83b4d5c0}{%
+           family={Laptev},
+           familyi={L\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=88955d17e6c2763bea0d5311323ac8f5}{%
+           family={Caputo},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6366450eff387e4c5d7365e584b92364}
+      \strng{fullhash}{6366450eff387e4c5d7365e584b92364}
+      \strng{authornamehash}{6366450eff387e4c5d7365e584b92364}
+      \strng{authorfullhash}{6366450eff387e4c5d7365e584b92364}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 17th International Conference on Pattern Recognition, 2004. ICPR 2004.}
+      \field{issn}{1051-4651}
+      \field{month}{08}
+      \field{title}{Recognizing human actions: a local SVM approach}
+      \field{volume}{3}
+      \field{year}{2004}
+      \field{pages}{32\bibrangedash 36 Vol.3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/ICPR.2004.1334462
+      \endverb
+      \keyw{feature extraction;pattern classification;support vector machines;video databases;video signal processing;SVM classification;human action recognition;local space time features;motion pattern recognition;video database;video representations;Cameras;Computer vision;Frequency;Humans;Image recognition;Pattern recognition;Performance evaluation;Spatial databases;Support vector machine classification;Support vector machines}
+    \endentry
+    \entry{TwoStream:2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Two-Stream Convolutional Networks for Action Recognition in Videos}
+      \field{volume}{abs/1406.2199}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1406.2199
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1406.2199
+      \endverb
+    \endentry
+    \entry{VGGNet:2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9d16b7284df92c9adaee86c37ab992df}{%
+           family={Simonyan},
+           familyi={S\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c72fc39e94030f67717052309266a44d}{%
+           family={Zisserman},
+           familyi={Z\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{fullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authornamehash}{25d2f3c4577a6632d37f0126cc781232}
+      \strng{authorfullhash}{25d2f3c4577a6632d37f0126cc781232}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Very Deep Convolutional Networks for Large-Scale Image Recognition}
+      \field{volume}{abs/1409.1556}
+      \field{year}{2014}
+      \verb{eprint}
+      \verb 1409.1556
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1409.1556
+      \endverb
+    \endentry
+    \entry{UCF-101}{article}{}
+      \name{author}{3}{}{%
+        {{hash=570032ed0e8ff7386c18881cba938d61}{%
+           family={Soomro},
+           familyi={S\bibinitperiod},
+           given={Khurram},
+           giveni={K\bibinitperiod}}}%
+        {{hash=95d680961d96d7791a21fdedfe50b7a0}{%
+           family={Zamir},
+           familyi={Z\bibinitperiod},
+           given={Amir\bibnamedelima Roshan},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c75751f493070716733608d20f74e3af}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Mubarak},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f230caa9279f0dbcaaf50611b89461a}
+      \strng{fullhash}{5f230caa9279f0dbcaaf50611b89461a}
+      \strng{authornamehash}{5f230caa9279f0dbcaaf50611b89461a}
+      \strng{authorfullhash}{5f230caa9279f0dbcaaf50611b89461a}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CoRR}
+      \field{title}{UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild}
+      \field{volume}{abs/1212.0402}
+      \field{year}{2012}
+    \endentry
+    \entry{Toyota:2015}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://newsroom.toyota.co.jp/en/detail/248128}}
+      \field{note}{Accessed: 2018-02-08}
+      \field{title}{Toyota Enhances Pre-crash Safety System With Driver-monitoring Function}
+      \field{year}{2015}
+    \endentry
+    \entry{DrowsinessWarning:2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=42ba0a1349b0ea12ce7bc0fabf3152db}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jian-Da},
+           giveni={J\bibinithyphendelim D\bibinitperiod}}}%
+        {{hash=5de2ef94bb05c7641ace10cebd770ecc}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Tuo-Rung},
+           giveni={T\bibinithyphendelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bab9c8b15311c52a812520de14333e49}
+      \strng{fullhash}{bab9c8b15311c52a812520de14333e49}
+      \strng{authornamehash}{bab9c8b15311c52a812520de14333e49}
+      \strng{authorfullhash}{bab9c8b15311c52a812520de14333e49}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{number}{2}
+      \field{title}{Development of a drowsiness warning system based on the fuzzy logic images analysis}
+      \field{volume}{34}
+      \field{year}{2008}
+      \field{pages}{1556\bibrangedash 1561}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.eswa.2007.01.019
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S0957417407000401
+      \endverb
+      \keyw{Drowsiness warning system,Vehicle safety,Image processing,Fuzzy logic inference}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

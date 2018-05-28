@@ -1,0 +1,94 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{multirow}
+
+% Math packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\overfullrule=2cm
+
+% Graphics packages
+%\usepackage{caption}
+%\usepackage{subcaption}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+% Set caption font size
+\usepackage[font=footnotesize]{caption}
+
+% Set 1 inch margins
+\usepackage[margin=1in]{geometry}
+% Set line spacing
+\renewcommand{\baselinestretch}{1.5}
+% Break paragraphs
+\setlength{\parskip}{1.5em}
+
+%\geometry{text={6.5in, 9.5in},
+%headheight=15pt}
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\fancyhead{}
+%\fancyhead[L]{Estimating Drivers' Required Attention Levels via Dashcam Videos}
+%\fancyfoot{}
+%\fancyfoot[R]{\thepage}
+%\fancyfoot[L]{Chapter \thechapter}
+%\fancyfoot[C]{Gary Corcoran}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+% Bibliography
+\usepackage[backend=biber]{biblatex}
+\bibliography{references}
+
+
+\title{Estimating Driver's Required Attention\\
+via Dashcam Videos}
+\author{Gary Corcoran}
+\date{April 2018}
+
+\begin{document}
+  \input{titlepage}
+
+  \chapter*{Abstract}
+  \addcontentsline{toc}{chapter}{Abstract}
+  \input{abstract}
+
+  \chapter*{R\'esum\'e}
+  \addcontentsline{toc}{chapter}{Resume}
+  \input{resume}
+  
+  \chapter*{Acknowledgements}
+  \addcontentsline{toc}{chapter}{Acknowledgements}
+  This work is supported by NSERC. Additionally, the author gratefully acknowledges Brisk Synergies for providing funding for this research.
+
+  The author would like to thank his advisor Dr. James Clark for all his motivation, guidance, and patience throughout this process.
+
+  \tableofcontents
+  \listoffigures
+  \listoftables
+
+  \chapter{Introduction}
+  \input{sections/introduction}
+
+  \chapter{Literature Review}
+  \input{sections/literature_review}
+
+%  \chapter{Chapter Three Title}
+%  \input{sections/chapter03}
+%
+%  \chapter{Chapter Four Title}
+%  \input{sections/chapter04}
+%
+  \chapter{Conclusion}
+  \input{sections/conclusion}
+%
+%  \appendix
+%  \chapter{Appendix Title}
+%  \input{sections/appendix}
+
+  \printbibliography
+
+\end{document}
